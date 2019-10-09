@@ -1,6 +1,4 @@
-# okHttpLib
-okHttp的封装
-
+常用方法：
 
   /**
      * get请求
