@@ -1,11 +1,5 @@
 常用方法：
 
-
-
-
-
-
-
     /**
      * get请求
      */
@@ -96,7 +90,7 @@
                     @Override
                     public void onResponse(Bitmap bitmap, int id) {
                         Log.e("TAG", "onResponse：complete");
-//                        mImageView.setImageBitmap(bitmap);
+                    mImageView.setImageBitmap(bitmap);
                     }
                 });
     }
@@ -174,7 +168,7 @@
 
                     @Override
                     public void inProgress(float progress, long total, int id) {
-//                        mProgressBar.setProgress((int) (100 * progress));
+                      mProgressBar.setProgress((int) (100 * progress));
                     }
 
                     @Override
